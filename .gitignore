@@ -1,0 +1,68 @@
+# ============================================================
+# .gitignore — Digital Design / Verilog / EDA Tools
+# ============================================================
+
+# ----- Simulation & Compilation Outputs -----
+*.vcd          # Value Change Dump (waveform files)
+*.lxt          # GTKWave compressed waveform
+*.fst          # Fast Signal Trace
+*.vvp          # Icarus Verilog compiled output
+work/          # ModelSim work library
+*.wlf          # ModelSim waveform log
+transcript     # ModelSim transcript log
+modelsim.ini   # ModelSim config (local)
+vsim.wlf
+
+# ----- Xilinx / Vivado -----
+*.bit          # Bitstream files
+*.bin
+*.mcs
+*.prm
+*.xpr          # Vivado project file (regenerable)
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/       # if auto-generated
+*.log
+*.jou
+*.str
+vivado*.jou
+vivado*.log
+.Xil/
+
+# ----- Quartus (Intel/Altera) -----
+*.qpf
+*.qsf
+db/
+incremental_db/
+output_files/
+*.rpt
+*.pin
+*.smsg
+*.summary
+
+# ----- Synopsys / Cadence -----
+*.syn
+*.mr
+*.pvl
+csrc/
+simv
+simv.daidir/
+ucli.key
+
+# ----- General -----
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# ----- Editor / IDE -----
+.vscode/settings.json
+.idea/
+*.sublime-workspace
