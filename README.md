@@ -28,8 +28,8 @@ The work here builds on prior RTL design experience from **ECE206: Contemporary 
 
 | Lab | Topic | Status |
 |-----|-------|--------|
-| Lab 1 | Drawing a Basic Circuit | ✅ Skipped — covered in ECE206 |
-| Lab 2 | Mapping Your Circuit to FPGA | 🔲 Not Started |
+| Lab 1 | Drawing a Basic Circuit | ✅ Complete |
+| Lab 2 | Mapping Your Circuit to FPGA | ✅ Complete |
 | Lab 3 | Verilog for Combinational Circuits | 🔲 Not Started |
 | Lab 4 | Finite State Machines | 🔲 Not Started |
 | Lab 5 | Implementing an ALU | 🔲 Not Started |
